@@ -10,6 +10,8 @@ npm install --save node-okex-ws-spot
 # Usage:
 
 ```javascript
+const Okex = require('node-okex-ws-spot');
+
 const okexSocket = new Okex();
 
 var pairs = ['BCH/BTC','LTC/BTC','LTC/USDT','LTC/ETH'];
