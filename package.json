@@ -1,0 +1,25 @@
+{
+  "name": "node-okex-ws-spot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agarwalyeshu/node-okex-ws-spot.git"
+  },
+  "author": "Yeshu Agarwal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/agarwalyeshu/node-okex-ws-spot/issues"
+  },
+  "homepage": "https://github.com/agarwalyeshu/node-okex-ws-spot#readme",
+  "dependencies": {
+    "ws": "^3.3.3"
+  }
+}
