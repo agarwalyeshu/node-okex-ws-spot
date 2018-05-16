@@ -1,4 +1,4 @@
-# node-okex-ws
+# node-okex-ws-spot
 
 Small library to get updates from OKEX spot web sockets.
 
