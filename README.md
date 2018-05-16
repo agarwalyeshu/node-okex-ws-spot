@@ -1,6 +1,6 @@
-# OKEX-spot-ws
+# node-okex-ws
 
-Small library to get updates from OKEX web sockets.
+Small library to get updates from OKEX spot web sockets.
 
 # Install:
 ```
