@@ -4,7 +4,7 @@ Small library to get updates from OKEX spot web sockets.
 
 # Install:
 ```
-npm install --save node-okex-ws
+npm install --save node-okex-ws-spot
 ```
 
 # Usage:
