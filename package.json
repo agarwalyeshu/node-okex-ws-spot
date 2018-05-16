@@ -1,6 +1,6 @@
 {
   "name": "node-okex-ws-spot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "engines": {
@@ -18,6 +18,18 @@
   "bugs": {
     "url": "https://github.com/agarwalyeshu/node-okex-ws-spot/issues"
   },
+  "keywords": [
+    "cryptocurrency",
+    "okex",
+    "websocket",
+    "ws",
+    "okcoin",
+    "exchanges",
+    "bitcoin",
+    "ethereum",
+    "btc",
+    "eth"
+  ],
   "homepage": "https://github.com/agarwalyeshu/node-okex-ws-spot#readme",
   "dependencies": {
     "ws": "^3.3.3"
