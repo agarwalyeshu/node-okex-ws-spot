@@ -8,9 +8,6 @@ class Okex {
 
     connect() {
         this.socket = new WebSocket(this.websocketUri);
-        this.socket.on('open', () => {
-            console.log(`Connected to OKEx websocket!`);
-        });
     }
 
     addSubscriptionDepth(pair_names) {
@@ -66,8 +63,6 @@ class Okex {
 
     reconnect(callback) {
         this.socket.on('close', () => {
-            console.log('OKEx socket closed!');
-            console.log('Reconnecting to OKEx socket....');
             setTimeout(() => {
                 this.connect();
                 this.onMessage(callback);
