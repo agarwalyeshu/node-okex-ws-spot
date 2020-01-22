@@ -1,3 +1,5 @@
+// Version 2
+
 const WebSocket = require('ws');
 
 class Okex {
